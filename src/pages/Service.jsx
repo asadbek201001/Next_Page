@@ -31,23 +31,36 @@ export default function Service() {
           <div className="service-box">
             <img src={Coin} alt="Coin icon" />
             <h2 className="service-title yellow">For Freelancers</h2>
-            <p className="service-desc">Have a tax-paying freelance 
+            <p className="service-desc">Turn your freelance gigs into 
                 <br />
-                career with our help</p>
+                a legal income stream — 
+                <br />
+                we’ve got your taxes covered.
+                </p>
           </div>
       
           <div className="service-box">
             <img src={Money} alt="Money icon" />
             <h2 className="service-title green">For Professionals</h2>
-            <p className="service-desc">Be a law-abiding individual by <br />
-                 filing your taxes properly with us</p>
+            <p className="service-desc">Stay focused on your career while
+               <br />
+               we take care of your tax filings
+               <br />
+               — smart, simple, secure.
+                 
+                 </p>
           </div>
       
           <div className="service-box">
             <img src={MoneyUp} alt="MoneyUp icon" />
             <h2 className="service-title beige">For Businesses</h2>
-            <p className="service-desc">Get rid of your business'<br />
-                 accounting headaches with us</p>
+            <p className="service-desc">Simplify your finances and 
+              <br />
+
+              focus on growth — let us
+              <br />
+              handle your accounting needs.
+                 </p>
           </div>
       
         </div>
