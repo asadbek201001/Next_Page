@@ -33,10 +33,10 @@ export default function About() {
                     </div>
                     <div className="about-text2">
                         <div className="about-p">
-                    A team comprised of board certified  <br />
-                    accountants, Manreka Accounting helps <br />
-                    you handle accounting problems in the  <br />
-                    most accessible and convenient way. <br />
+                        At Manreka Accounting, our team of certified experts is dedicated to <br />
+                        simplifying your accounting tasks. We make finance management easy, <br />
+                        accessible, and tailored to your needs - <br />
+                        so you can focus on what matters most. <br />
                     </div>
                     </div>
                 </div>

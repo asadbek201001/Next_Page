@@ -18,43 +18,45 @@ export default function About() {
             name: "Asadbek Gulomov",
             role: "Disigner and coder",
             quote:
-                "Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.",
+
+                "Before writing the codes, the person who designs them through the Canva app or website is considered.",
         },
         {
             img: Anvarbek,
             name: "Avnarbek Ahadov",
             role: "FrontEnd developer",
             quote:
-                "Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.",
+
+                "The person who writes the code based on the design and uses it is considered responsible for its operation.",
         },
         {
             img: Asadbek,
             name: "Asadbek Gulomov",
             role: "Disigner and coder",
             quote:
-                "Testimonials are short quotes from people who love your brand. It's a great way to convince customers to try your services.",
+                "Before writing the codes, the person who designs them through the Canva app or website is considered.",
         },
     ];
 
     return (
         <div className="leader-container">
-                <div className="leader-main">
+            <div className="leader-main">
                 <div className="leader-title3">
                     About Us
                 </div>
-            
 
 
-            <div className="leader-wrapper">
-                {people.map((person, index) => (
-                    <div key={index} className="card">
-                        <img src={person.img} alt={person.name} className="profile-pic" />
-                        <h2>{person.name}</h2>
-                        <h3>{person.role}</h3>
-                        <p>{person.quote}</p>
-                    </div>
-                ))}
-            </div>
+
+                <div className="leader-wrapper">
+                    {people.map((person, index) => (
+                        <div key={index} className="card">
+                            <img src={person.img} alt={person.name} className="profile-pic" />
+                            <h2>{person.name}</h2>
+                            <h3>{person.role}</h3>
+                            <p>{person.quote}</p>
+                        </div>
+                    ))}
+                </div>
             </div>
         </div>
     );
