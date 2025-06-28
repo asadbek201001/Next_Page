@@ -3,7 +3,7 @@ import React from "react";
 // images
 import Asadbek from "../images/Asadbek.jpg";
 import Anvarbek from "../images/Anvabek.jpg";
-
+import Azizbek from "../images/Azizbek.png";
 
 
 
@@ -30,7 +30,7 @@ export default function About() {
                 "The person who writes the code based on the design and uses it is considered responsible for its operation.",
         },
         {
-            img: Asadbek,
+            img: Azizbek,
             name: "Asadbek Gulomov",
             role: "Disigner and coder",
             quote:
